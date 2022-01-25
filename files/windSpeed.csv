@@ -1,0 +1,5 @@
+timestamp,location,longitude,latitude,station_id,value,units
+2022-01-25T13:30:00+08:00,East Coast Parkway,103.9625,1.3135,S107,8.3,knots
+2022-01-25T13:30:00+08:00,Nanyang Avenue,103.68166,1.34583,S44,4.2,knots
+2022-01-25T13:30:00+08:00,Woodlands Avenue 9,103.78538,1.44387,S104,13,knots
+2022-01-25T13:30:00+08:00,Woodlands Road,103.74855,1.4172,S100,5.2,knots

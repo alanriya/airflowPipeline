@@ -1,0 +1,5 @@
+.blow
+.env
+docker-compose.yaml
+logs/
+*.pyc

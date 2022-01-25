@@ -1,0 +1,5 @@
+TEMPERATURE_URL =  "https://api.data.gov.sg/v1/environment/air-temperature"
+RAINFALL_URL = "https://api.data.gov.sg/v1/environment/rainfall"
+HUMIDITY_URL = "https://api.data.gov.sg/v1/environment/relative-humidity"
+WIND_DIRECTION_URL = "https://api.data.gov.sg/v1/environment/wind-direction"
+WIND_SPEED_URL = "https://api.data.gov.sg/v1/environment/wind-speed"
