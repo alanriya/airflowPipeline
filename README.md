@@ -11,6 +11,9 @@ The following shows one of the dags:
 
 Lets imagine there is 5 sources of data to collect. In order to collect them, we check if api endpoint is available, then download the files. When all files are successfully downloaded, the task to insert to database will be triggered. If any of the task fails, the dag will send a email stating at which part of the pipeline fails.
 
+Future Extension:
+Adding spark local cluster to simulate submitting spark job to the cluster for big data processing.
+
 ## Technology Used
 - Python 3.8
 - airflow 2.2.3
@@ -35,5 +38,5 @@ Installation instructions:
 4) To bring your container down: docker-compose -f docker-compose.yml down
 
 ## COPYING/ LICENSING
-Copyrights goes to airflow and docker since this data pipeline application is built with these 2 technologies as base technologies. Data comes from an open-source api  
+Copyrights goes to airflow and docker since this data pipeline application is built with these 2 technologies as base technologies. Data comes from an open-source api and can be found in dags/weather/urls.py
 
